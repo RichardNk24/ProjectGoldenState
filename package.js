@@ -20,11 +20,13 @@ Package.onUse(function (api) {
     'dist/fonts/glyphicons-halflings-regular.woff',
     'dist/fonts/glyphicons-halflings-regular.woff2'
   ];
+  
   if (api.addAssets) {
     api.addAssets(assets, 'client');
   } else {
     api.addFiles(assets, 'client', { isAsset: true });
   }
+  
   api.addFiles([
     'dist/css/bootstrap.css',
     'dist/js/bootstrap.js'
