@@ -50,10 +50,7 @@
     }
 
     e.preventDefault()
-  }
-
-  
-  
+  }  
   
   
   
