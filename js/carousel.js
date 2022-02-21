@@ -61,7 +61,6 @@
   
   
   
-  
   Carousel.prototype.cycle = function (e) {
     e || (this.paused = false)
 
